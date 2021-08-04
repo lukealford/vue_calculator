@@ -1,6 +1,21 @@
-# vue_calc
+# Vue Calculator
 
-## Project setup
+A very simple calculator using,
+
+* Vue 2.x
+* Vuex
+
+Built using as minimal code possible and taking advantage of vue components.
+
+
+## Todo
+---
+* Finish decimal logic
+* Add a history
+
+
+
+# Project setup
 ```
 npm install
 ```
@@ -19,6 +34,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
