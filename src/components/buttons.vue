@@ -31,11 +31,7 @@ components: {
     },
     methods: {
         run(data) {
-            if(this.isNumeric(data)){
-                this.$store.dispatch('updateDisplay',data)
-            }else{
-                this.$store.dispatch('operatorClicked',data)
-            }
+            this.isNumeric(data) === true ? this.$store.dispatch('updateDisplay',data) : this.$store.dispatch('operatorClicked',data)
         },
         isNumeric(val){
             return /^-?\d+$/.test(val);  
